@@ -1,0 +1,10 @@
+DFS stands for Depth-First Search. It's an algorithm used for traversing or searching tree or graph data structures. In DFS, you start at a specific node (often called the "root" in a tree or "start" in a graph) and explore as far as possible along each branch before backtracking.
+Here's a basic overview of how DFS works:
+Start at the root node: Visit the starting node and mark it as visited.
+Explore all adjacent nodes: Choose an unvisited adjacent node and visit it. If there are multiple adjacent nodes, you typically choose one arbitrarily.
+Recursively explore: Repeat step 2 for the chosen node, continuing until there are no more unvisited nodes reachable from the current node.
+Backtrack: If all adjacent nodes have been visited, backtrack to the previous node and explore any unvisited nodes from there.
+Repeat: Repeat steps 2-4 until all nodes have been visited.
+DFS can be implemented using either recursion or a stack data structure. The recursive approach is more intuitive, while the stack-based approach allows for more control over the traversal process and can be more memory-efficient for large graphs.
+
+DFS is often used in various applications such as finding connected components, detecting cycles, and solving maze problems. It's one of the fundamental graph traversal algorithms and has many practical applications in computer science and related fields.
