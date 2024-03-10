@@ -9,3 +9,4 @@ DFS can be implemented using either recursion or a stack data structure. The rec
 
 DFS is often used in various applications such as finding connected components, detecting cycles, and solving maze problems. It's one of the fundamental graph traversal algorithms and has many practical applications in computer science and related fields.
 Backtrack: If all adjacent nodes have been visited, backtrack to the previous node and explore any unvisited nodes from there.
+Start at the root node: Visit the starting node and mark it as visited.
